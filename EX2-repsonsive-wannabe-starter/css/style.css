@@ -143,6 +143,10 @@ img {
         width: 100%;
     } 
 
+    .steps .col {
+        width: 100%;
+    }
+
     .row {
         display: block;
     }
@@ -150,4 +154,9 @@ img {
     .lessons .col:first-child {
         margin-bottom: 70px;
     }
+
+    .steps .col:nth-child(2) {
+        margin: 70px 0;
+    }
  }
+
