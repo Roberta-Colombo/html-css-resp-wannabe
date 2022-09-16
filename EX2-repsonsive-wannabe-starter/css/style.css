@@ -139,24 +139,42 @@ img {
  /* Soluzione mobile  */
 
  @media screen and (max-width: 480px) {
-    .lessons .col {
-        width: 100%;
-    } 
-
-    .steps .col {
-        width: 100%;
-    }
-
     .row {
         display: block;
     }
+
+    .lessons .col {
+        width: 100%;
+    } 
 
     .lessons .col:first-child {
         margin-bottom: 70px;
     }
 
+    .steps .col {
+        width: 100%;
+    }
+
     .steps .col:nth-child(2) {
         margin: 70px 0;
+    }
+
+    .why-us .col {
+        width: 100%;
+    }
+
+    .why-us img {
+        margin-bottom: 70px;
+    } 
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        padding: 3rem 0;
+        margin-bottom: 0;
+        background-color: #222222;
     }
  }
 
