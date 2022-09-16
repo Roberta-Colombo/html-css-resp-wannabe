@@ -135,3 +135,19 @@ img {
         width: 100%;
     }
  }
+
+ /* Soluzione mobile  */
+
+ @media screen and (max-width: 480px) {
+    .lessons .col {
+        width: 100%;
+    } 
+
+    .row {
+        display: block;
+    }
+
+    .lessons .col:first-child {
+        margin-bottom: 70px;
+    }
+ }
